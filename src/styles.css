@@ -47,6 +47,11 @@ a{
     padding: 0 1rem ;
 }
 
+.section{
+    width: 100%;
+    height: 100dvh;
+}
+
 /* HEADER */
 
 .home{
@@ -174,7 +179,83 @@ header{
     }
 
     .about img{
-        width: 350px;
+        width: 300px;
         border-radius: 5%;
     }
+}
+
+/* CAEGORIAS */
+
+.category{
+    background: var(--white-normal);
+}
+
+.categorias{
+    padding: 34px 14px 64px 14px;
+}
+
+.category-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.div-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 220px;
+    height: 130px;
+    background: red;
+}
+
+
+
+
+.category-info h2{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.category-info p{
+    margin: 1rem 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.div-category h1{
+    color: var(--white-normal);
+}
+
+.nutri{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-image: linear-gradient(to bottom, rgba(0, 37, 12, 0.096), #0d2329c5), url('/assets/categoria1.png');
+}
+
+.exercises{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-image: linear-gradient(to bottom, rgba(0, 37, 12, 0.096), #0d2329c5), url('/assets/categoria2.png');
+}
+
+.health{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-image: linear-gradient(to bottom, rgba(0, 37, 12, 0.096), #0d2329c5), url('/assets/categoria3.png');
+}
+
+.rotine{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-image: linear-gradient(to bottom, rgba(0, 37, 12, 0.096), #0d2329c5), url('/assets/categoria4.png');
 }
