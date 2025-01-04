@@ -47,11 +47,6 @@ a{
     padding: 0 1rem ;
 }
 
-.section{
-    width: 100%;
-    height: 100dvh;
-}
-
 /* HEADER */
 
 .home{
@@ -214,12 +209,16 @@ header{
 }
 
 
-
-
 .category-info h2{
     font-size: 35px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.text-category{
+    color: var(--white-normal);
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .category-info p{
@@ -258,4 +257,22 @@ header{
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-image: linear-gradient(to bottom, rgba(0, 37, 12, 0.096), #0d2329c5), url('/assets/categoria4.png');
+}
+
+.explicacao{
+    margin-top: 1rem;
+}
+
+.explicacao h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: .75rem;
+    background: var(--dark-variant);
+    padding: .75rem;
+    color: var(--white-normal);
+    user-select: none;
+}
+
+.explicacao p{
+    text-align: justify;
 }
