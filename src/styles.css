@@ -346,6 +346,23 @@ header{
 }
 
 .post-text p{
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1088px){
+    .postagem{
+        flex-direction: column;
+    }
+    .photo img{
+        width: 280px;
+    }
+    .post-text h2{
+        font-size: 24px;
+    }
+    .post-text p{
+        font-size: 12px;
+    }
 }
