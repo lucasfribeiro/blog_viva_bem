@@ -276,3 +276,76 @@ header{
 .explicacao p{
     text-align: justify;
 }
+
+/* POSTS */
+
+.posts-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 34px 14px 64px 14px;
+}
+
+.posts-content h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    color: var(--white-normal);
+}
+
+.postagem{
+    background: var(--white-normal);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.2rem;
+}
+
+.photo{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.photo img{
+    width: 350px;
+}
+
+.actions-photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions-photo i{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--dark-variant);
+}
+
+.actions-photo  a{
+    background: var(--green-variant);
+    color: var(--white-normal);
+    padding: 5px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.post-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-text h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.post-text p{
+    font-size: 18px;
+    text-align: justify;
+}
