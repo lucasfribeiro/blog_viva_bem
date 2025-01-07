@@ -423,3 +423,41 @@ header{
         font-size: 12px;
     }
 }
+
+/* ARROW BUTTON */
+
+.arrow{
+    background: var(--white-normal);
+    box-shadow: -2px 1px 30px 1px var(--dark-variant) ;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 99;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow img{
+    width: 35px;
+}
+
+.arrow .tooltip{
+    visibility: hidden;
+    position: absolute;
+    bottom: 3rem;
+    background: var(--dark-normal);
+    padding: 5px 10px ;
+    font-size: 14px;
+    color: var(--white-normal);
+    border-radius: 5px;
+    border: 1px solid var(--dark-variant);
+    opacity: 0;
+    transition: opacity .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.arrow:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
